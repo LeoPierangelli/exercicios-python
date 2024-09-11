@@ -1,10 +1,25 @@
-a = int(input('Digite um valor: '))
+'''a = int(input('Digite um valor: '))
 b = int(input('Digite outro valor: '))
 c = int(input('Digite o último valor: '))
 
 if a > b and a > c:
-    print(f'{a}')
-elif b > c and b > a:
-    print(f'{b}')
+    print(a)
+elif b > c:
+    print(b)
 else:
-    print(f'{c}')
+    print(c)
+'''
+
+#GARABITO
+a = int(input('Digite um valor: '))
+b = int(input('Digite outro valor: '))
+c = int(input('Digite o último valor: '))
+
+high = a
+
+if b > high:
+    high = b
+if c > high:
+    high = c
+
+print(f'{high}')
