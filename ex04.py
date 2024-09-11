@@ -12,3 +12,5 @@ p = 0.25
 if a>=12:
     p = 0.30
 print(f'você gastou R${p*a}')
+
+#não precisa de else 🤯

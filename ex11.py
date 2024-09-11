@@ -3,8 +3,10 @@ b = float(input('Digite o valor de outro ângulo: '))
 c = float(input('Digite o valor do último ângulo: '))
 
 if a == 90 or b == 90 or c == 90:
-    print('triângulo retângulo')
-elif a>90 or b>90 or c>90:
-    print('triângulo obtuso')
+    triangulo = 'retângulo'
+elif a > 90 or b > 90 or c > 90:
+    triangulo = 'obtuso'
 else:
-    print('triângulo acutângulo')
+    triangulo = 'acutângulo'
+print(f'Triângulo {triangulo}')
+
